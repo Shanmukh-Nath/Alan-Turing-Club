@@ -1,0 +1,111 @@
+body{
+        margin : 0;
+        padding : 0;
+        font-family : sans-serif;
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(earth\ net.jpg);
+        background-size: cover;
+        
+}
+.box{
+        width: 300px;
+        padding: 30px;
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        background: rgba(0, 0, 0, 0.4);
+        text-align: center;
+}
+.box h1{
+        color: white;
+        text-transform: uppercase;
+        font-weight: 700;
+
+}
+.box h1:hover{
+        color: #85EBFF;
+        cursor: pointer;
+}
+.nav{
+        width:100%;
+        display: flex;
+        
+}
+.nav img{
+        margin-top: 3vh;
+        margin-left: 1vw;
+        height: 8vh;
+        width: 20vw;
+        float: left;
+       
+}
+.nav img:hover{
+        width: 20vw;
+        height: 8vh;
+        background-color: #85EBFF;
+        border: none;
+        border-radius: 20px;
+        box-shadow: inset 40vw 0 0 0 #85EBFF;
+        transition: 0.5s;
+        cursor: pointer;
+}
+.box input[type="text"],.box input[type="password"]{
+        border: 0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: 3px solid white;
+        padding: 14px 10px;
+        width: 220px;
+        outline: none;
+        color: #85EBFF;
+        border-radius: 24px;
+        transition: 0.25px;
+        font-size: 2vh;
+}
+.box input[type="text"]::placeholder{
+        color: orange;
+        text-transform: uppercase;
+}
+.box input[type="password"]::placeholder{
+        color: orange;
+        text-transform: uppercase;
+}
+.box input[type="text"]:hover{
+        width: 270px;
+        border-color: orange;
+        transition: 0.5s;
+}
+.box input[type="password"]:hover{
+        width: 270px;
+        border-color: orange;
+        transition: 0.5s;
+}
+.box input[type="submit"]{
+        border: 0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: 3px solid white;
+        padding: 14px 10px;
+        width: 220px;
+        outline: none;
+        color: white;
+        border-radius: 24px;
+        transition: 0.25px;
+        cursor: pointer;
+        text-transform: uppercase;
+}
+.box input[type="submit"]:hover{
+        background: orange;
+        border-color: #85EBFF;
+        transition: 0.5s;
+        width: 270px;
+        font-weight: 700;
+}
+.box a{
+        color: #85EBFF;
+        text-decoration: none;
+}
